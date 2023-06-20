@@ -1,0 +1,48 @@
+//LECTURE 1
+
+WEB DEVELOPMENT
+
+Used to create Websites(Static content eg WIKIPEDIA) and Web Apps(Dynamic webpages eg LINKEDIN)
+
+
+//Now a days user interactive web apps are developed mostly . thesa act as products for many product based companies.
+
+
+WEB APPS :
+   
+   3 Layers--
+         -- FRONT END ( especially developd for USER)
+            all users interact with FRONTEND(UI/UX) of web apps
+            HTML,CSS,JS, FRAMEWORKS.
+            (FRONTEND ENGINEER).
+
+         --BACKEND BRAIN of WEBAPPS. entire logic is written in backend.
+           developers interact with backend.
+           JAVASCRIPT,JAVA,NODEJS.
+           (BACKEND ENGINEER)
+
+         --DATA BASE Layer.   to store data and state.
+           Many Databases are used LIKE SQL,NOSQL Data bases.
+           eg MySQL,MONGO DB(No Sql),CASSANDRA(NoSql)
+
+        //(FRONT AND BACKEND):- FULLSTACK WEB DEVELOPMENT;
+
+
+
+STACK WE ARE USING 
+              MERN
+              M- MONGO DB
+              E- EXPRESS JS
+              R- REACT JS FRAMEWORK
+              N- NODE JS RUNTIME ENVIRONMENT
+
+
+
+
+Note :-DOCUMENTATION IS GOD 
+
+
+
+
+
+            
