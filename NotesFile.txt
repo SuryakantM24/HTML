@@ -138,4 +138,37 @@ PROTOCOLS :-
 
 
 
+//LECTURE 4(HTML 1)
+
+HTML- Hyper text markup language.
+
+its use to create basic strutucre of webpage
+
+
+HTML- strutucre
+CSS- STYLING/APPEARENCE
+JS- BRAIN/LOGIC.
+
+
+HTML has tags which has some utility. 
+these are enclosed in angular brackets.
+
+eg<html> <p>,
+
+tags have closing tags also eg <p> </p>
+some tags do not have closing tags
+
+ TAKE a look - index.html for this lecture.
+
+ <head> tag is used to add metadata, link styles 
+
+ <body> every content is inserted in this tag.
+
+
+
+ <!Doctype> it tells its html 5 documnent
+
+ Documentation should be used (MDN) best
+
+
 
