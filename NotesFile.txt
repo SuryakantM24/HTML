@@ -84,8 +84,58 @@ CLIENT(Laptop,mobile,pc,) etc.
 
 
 
+eg.          
+      user request [www.fb.com(Mapped to IP address, DNS server convert this domain name to IP address)]--------> [fb server]
+                                                                                                       <--------- [response.]
+
+
+     Note:-  DNS server convert this domain name to IP address,this process is called as DOMAIN NAME RESOLUTION
 
 
 
 
-            
+//LECTURE 3 (HOW INTERNET WORKS)
+
+
+SMALL CHUNKS OF DATA are called Packets
+
+
+ISP- Internet Service Provider
+
+
+
+CLIENT SERVER ARCHITECTURE
+
+                     REQ(GET,SET,PUSH)
+        CLIENT -----------------------------> SERVER
+              <------------------------------
+
+
+
+CLIENT (REQ. url)-------->ISP------> SERVER
+
+       
+
+       application |   (Protocol)             | application|
+       ------------                            ------------
+       TCP         |   (PORT NO)              |    TCP     |
+       ------------                            -----------
+       ISP         |   (IP ADDRESS)           |    IP      |
+       ------------                            -----------
+       Hardware    | ------->[INTERNET]------>| Hardware   |
+
+
+
+       REQUEST CONTAINS(App Protocol,PORT NO, IP ADDRESS)
+
+
+
+
+PROTOCOLS :- 
+          HTTP (Hyper text transfer Protocol);
+          FTP  (file transfer Protocol)
+          SMTP (Simple mail transfer Protocol);
+
+
+
+
