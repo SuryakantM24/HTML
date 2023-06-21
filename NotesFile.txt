@@ -171,4 +171,40 @@ some tags do not have closing tags
  Documentation should be used (MDN) best
 
 
+LECTURE 5 // (Tags)
 
+Tag is a markup entity
+
+used to provide strutucre,meaning,formatting to content.
+
+eg html,head,body.
+
+
+
+
+SEMANTICS             |    STRUCTURE       |   FORMATTING
+h1...h6                    html                <b>
+<p>                        head,body           <i>
+<a>                        header              <u>
+<ol><ul>                   main                <strong>
+<table> <tr> <td>          aside               <em>
+<img>                      footer              <sup><sub>
+<form>                     article             <pre><code>
+<input>                    section
+                           <nav>
+TAKE a look -index1.html  
+
+only h1 to h6  will come to heading.
+afte that it will act as nomral p tag
+
+
+anchor tag
+<a href="www.google.com">GOOGLE</a>
+
+
+lists
+
+ol-ordered
+ul-unordered
+
+using emmet ol>li*3
