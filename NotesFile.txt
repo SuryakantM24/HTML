@@ -1,3 +1,5 @@
+
+INTRODUCTION 
 //LECTURE 1
 
 WEB DEVELOPMENT
@@ -40,6 +42,47 @@ STACK WE ARE USING
 
 
 Note :-DOCUMENTATION IS GOD 
+
+
+
+//LECTURE 2 . (NETWORK,WEB,INTERNET)
+
+NETWORK:- INTERCONNECTED devices on large scale.
+
+eg. LAN(Local Area Netwok), MAN(Metropolitan Area NETWORK), WAN(Wide area Network)
+
+// can we wired, satallite connected.
+
+Internet:- Global/ Network of Networks(Billions of Devices)
+
+WWW:- world wide web.its subset of  Internet
+
+
+
+IP address:- Unique address of a device. if communication is to be made between two machines.
+
+
+
+Browser :--     Docs , resources,website,webpages on internet can be accessed using a application named as Browser.
+
+Browser Engine:- Web realted files can be use to render using browser engine.
+
+
+CLIENT/SERVER MODEL :-               req.  (get,put,post)
+
+                    CLIENT-----------> SERVER
+                          <-----------
+                            response.
+
+
+
+
+CLIENT(Laptop,mobile,pc,) etc.
+      we can also call browser,app,command line inteface as CLIENT.
+
+
+
+
 
 
 
