@@ -1,4 +1,4 @@
-
+=================================================
 INTRODUCTION 
 //LECTURE 1
 
@@ -43,7 +43,7 @@ STACK WE ARE USING
 
 Note :-DOCUMENTATION IS GOD 
 
-
+=================================================================
 
 //LECTURE 2 . (NETWORK,WEB,INTERNET)
 
@@ -93,6 +93,8 @@ eg.
 
 
 
+=========================================================================================================
+
 
 //LECTURE 3 (HOW INTERNET WORKS)
 
@@ -137,6 +139,9 @@ PROTOCOLS :-
           SMTP (Simple mail transfer Protocol);
 
 
+==============================================================================================================
+
+
 
 //LECTURE 4(HTML 1)
 
@@ -169,6 +174,8 @@ some tags do not have closing tags
  <!Doctype> it tells its html 5 documnent
 
  Documentation should be used (MDN) best
+
+=========================================================================================================================
 
 
 LECTURE 5 // (Tags)
@@ -211,6 +218,85 @@ using emmet ol>li*3
 
 Assignments:- Blog Start
 
+======================================================================================================
 
 
-LECTURE 6 // 
+LECTURE 6 // (HMTL IN SPEED)
+
+
+EMMET is plugin to create strutucre
+
+eg p>p>p  =>
+            <p>
+                 <p>
+                     <p>
+                     </p>
+                </p>
+             </p>
+      
+TODO :- Find different emmet commands in EMMET Documentation
+
+
+File :- index2.hmtl
+
+
+class and id.
+
+#id
+
+id is used to identify any tag uniquely
+
+#class
+
+class is used to generalize particular tags. its used for grouping
+
+
+
+
+
+
+
+DIV tag:-
+   its a generic tag contianer tag. its a non symnatic tag.
+   its used for wrapping.
+   it helps us in css to apply properties.
+
+
+
+
+
+BLOCK AND INLINE ELEMENTS
+
+Block:-
+    take entire space from L to R
+    and new content is displayed on newline.
+
+
+
+
+ INLINE:-  not next line. just take space required for content . does not block entire   
+
+
+DIV is block ELEMENT
+paragrap is also Block
+
+SPAN in INLINE ELEMENT
+
+TODO:- MDN web docs DIV 
+
+
+if i change display property  of block ELEMENT to inline then it will behave like inline.
+
+
+NOTE :- please Read EMMET used in index2.html
+
+TODO[NAVBAR]:- ANSWER SEE index2
+NOte:- I can make  list element type ="none" so that there are no buillet pointss
+to make li elements side by side i can make display property as flex.
+ to move the li's to right side i can make flext direction row reverse.
+
+
+
+========================================================================================
+
+
