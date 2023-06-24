@@ -354,4 +354,60 @@ TODO:--
 5] img-https://media.geeksforgeeks.org/wp-content/uploads/20200815213442/timetableimage.JPG
 
 
+//LEC 8 (HTML FORMS)
 
+FORM :- its a strutucre used to collect data from user
+
+eg LOGIN FORM
+
+<FORM> tag is used for html form
+
+eg, check box,buttons,radio buttons, comment,scroll etc
+
+
+<input> tags are used to display different type of input
+
+<label> tag is used to give naming to input tag
+
+
+lablel {for attribute}----[equal TO]----input  tag id always;
+
+File to Study:- Index4.html
+
+type:- what type of input
+
+id: to identify uniquely
+
+for of label will be equal to id of input. it helps to link these two
+
+
+method attribute in form is used to in what way we need to send the data,..eg post,get etc
+
+value attribue of button sets what should be writeen on button
+
+
+
+select tag is used for dropdown
+
+text area is used for multi line input
+
+feildset is used to group inputs
+
+legend is used to caption feildset
+
+
+
+form 
+---inputs
+       - textfield
+       -button
+       -radio
+       -checkbox
+       -file select
+       -img
+       -password
+       -Date 
+
+IMPORTANT:-to  make selection of one radio button deselect other , we need to give same name in name attribute in input tag
+
+checked attribute can be given to have one option checked by default

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets get in Form with FORMS</title>
+</head>
+<body>
+    <form action="">
+         <label for="email">Enter Email here</label>
+         <input type="text" name="" id="email" placeholder="abc@gmail.com">
+
+         <label for="pass"> Password</label>
+         <input type="password" name="" id="pass" >
+
+         <input type="submit" value="Submit">
+
+    </form>
+
+
+    <!-- eg -->
+    <form>
+        <!-- group the inputs using field set-->
+        <fieldset>
+
+            <!-- for type data -->
+        <label for="datepick">Choose Date:</label>
+        <input type="date" id="datepick">
+        <br>
+
+        <!-- for dropdown menu -->
+        <label for="junk">Junk Food</label>
+        <select name="dish" id="junk">
+            <option value="Maggie">MAGGI</option>
+            <option value="kurkure">KURKURE</option>
+            <option value="CoKE">coke</option>
+        </select>
+        <br>
+
+        <!-- button -->
+        <button><img style="height:40px; width: 40px;" src="https://love2dev.com/img/2000px-instagram_logo_2016svg-2000x2000.png" alt=""></button>
+        <!-- textarrea -->
+        <br>
+        <label for="life">Write about life</label>
+        <br>
+        <textarea name="" id="life" cols="30" rows="10" placeholder="Write whats cookin!!"></textarea>
+        </fieldset>
+    </form>
+
+    <form action="">
+        <label for="rad1">Female</label>
+        <input type="radio" id="rad1" name="gender" checked>
+        <br>
+        <label for="rad2">Male</label>
+        <input type="radio" id="rad2" name="gender">
+
+        <label for="rad3">Other</label>
+        <input type="radio" id="rad3" name="gender">
+    </form>
+
+    <!-- checkbox -->
+
+    <label for="lang"></label>
+    <input type="checkbox" name="" id="lang">
+    <input type="file">
+</body>
+</html>
