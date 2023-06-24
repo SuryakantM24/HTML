@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in detail</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+    
+        th, td {
+            border: 3px solid;
+            padding: 10px;
+            
+        }
+        .centerrr{
+            text-align: center;
+          
+        }
+    </style>
+</head>
+<body>
+    <h3>Table 1 for Practice</h3>
+    <table  style="border:1px solid black;">
+        <caption><strong>Table 1 Assignment</strong></caption>
+        <thead><tr>
+            <th>Student ID</th>
+            <th>Student Name</th>
+            <th>Gender</th>
+            <th> Age</th>
+        </tr></thead>
+        <tbody><tr>
+            <td>1234</td>
+            <td>Bill</td>
+            <td>Male</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>1235</td>
+            <td>John</td>
+            <td>Male</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>1236</td>
+            <td>Olivia</td>
+            <td>Female</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>1237</td>
+            <td>Mia</td>
+            <td>Female</td>
+            <td>19</td>
+        </tr></tbody>
+    </table>
+    <p><h3>Table 2 for Practice</h3></p>
+
+
+
+    <table >
+        <caption><strong>Table 2 Assignment</strong></caption>
+        <thead><tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>SUBJECT</th>
+            <th>MARKS</th>
+        </tr>
+    </thead>
+    <thbody> 
+           <tr>
+            <td rowspan="3">1</td>
+            <td rowspan="3">David</td>
+            <td>Maths</td>
+            <td>80</td>
+           </tr>
+           <tr>
+            <td>Physics</td>
+            <td>90</td>
+           </tr>
+           <tr>
+            <td>Computers</td>
+            <td>70</td>
+           </tr>
+
+           <tr> 
+            <td rowspan="3">2</td>
+            <td rowspan="3">Alex</td>
+            <td>Maths</td>
+            <td>80</td>  
+           </tr>
+
+           <tr>
+            <td>Physics</td>
+            <td>70</td>  
+           </tr>
+           <tr>
+            <td>Computers</td>
+            <td>90</td>  
+           </tr>
+    </thbody>
+    </table>
+
+
+    <p><h3>Table 3 for Practice</h3></p>
+
+    <table>
+        <thead>
+            <tr>
+            <th>Header Column 1</th>
+            <th>Header Column 2</th>
+            <th>Header Column 3</th>
+            <th>Header Column 4</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Row2 Item1</td>
+                <td>Row2 Item2</td>
+                <td rowspan="2" style="padding-top:10%; ;">
+                    <table >
+                    <caption><strong>Row 2: Nested Table 1</strong></caption>
+                    <tr>
+                        <td>Row 1 Header</td>
+                        <td>Item</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2 Header</td>
+                        <td>Item</td>
+                    </tr>
+                    <tr>
+                        <td>Row 3 Header</td>
+                        <td>Item</td>
+                    </tr>
+                   </table> 
+                </td>
+                <td>Row 2 Item-4</td>
+            </tr>
+            <tr>
+                <td><table >
+                    <caption><strong>Row 3: Nested Table 2</strong></caption>
+                    <tr>
+                        <td>Row 1 Header</td>
+                        <td>Item</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2 Header</td>
+                        <td>Item</td>
+                    </tr>
+                    
+                   </table> </td>
+                <td>Row3 Item 2</td>
+                <td rowspan="2">Row3-Item 3</td>
+            </tr>
+            <tr>
+                <td>Row4-Item 1</td>
+                <td>Row4-Item 2</td>
+                <td>Row4-Item 3</td>
+               
+            </tr>
+            <tfoot>
+            <tr>
+
+                <td colspan="4">Row5-Last row of outer table</td>   
+            </tr>
+            </tfoot>   
+
+        </tbody>
+    </table>
+
+
+    <p><strong><h3>Table 4 for Practice</h3></strong></p>
+
+
+    <table>
+        <caption><h3>CODING NINJAS GOODIES - XYZ DISPATCH</h3></caption>
+        <thead>
+            <tr>
+                <td colspan="2"><strong>Schedule</strong></td>
+                <td colspan="3"><strong>Product</strong></td>
+            </tr>
+           <tr>
+            <td rowspan="2">Day</td>
+            <td rowspan="2">Time</td>
+            <td rowspan="2">Item</td>
+            <td colspan="2">Shipping Details</td>
+           </tr>
+           <tr>
+            <td>Quantity</td>
+            <td>Cost</td>
+           </tr>
+           <tr>
+            <td rowspan="6">Monday</td>
+            <td rowspan="3">10:00 AM</td>
+            <td>Bag</td>
+            <td>10</td>
+            <td rowspan="3">2000</td>
+           </tr>
+           <tr>
+            <td>T-shirt</td>
+            <td>10</td>
+           </tr>
+           <tr>
+            <td>Notebook</td>
+            <td>20</td>
+           </tr>
+           <tr>
+            <td rowspan="2">1:00PM</td>
+            <td>T-Shirt</td>
+            <td>20</td>
+            <td rowspan="2">1300</td>
+           </tr>
+           <tr>
+             <td>Notebook</td>
+             <td>15</td>
+           </tr>
+           <tr>
+            <td>5:00PM</td>
+            <td>Bag</td>
+            <td>8</td>
+            <td>800</td>
+           </tr>
+
+        </thead>
+        <tfoot>
+            <tr>
+                <td rowspan="5">TUESDAY</td>
+                <td rowspan="3">12:00 PM</td>
+                <td>Bag</td>
+                <td>8</td>
+                <td rowspan="3">2100</td>
+            </tr>
+            <tr>
+                <td>T-Shirt</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Notebook</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td rowspan="2">1:00 PM</td>
+                <td>T-Shirt</td>
+                <td>10</td>
+                <td rowspan="2">600</td>
+            </tr>
+            <tr>
+                <td>Notebook</td>
+                <td>10</td>
+                
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>
+        <h3>Time Table 5 for Practice</h3>
+    </p>
+  
+    <table>
+        <caption> <h2> TIME TABLE</h2></caption>
+
+        <thead class="centerrr">
+            <tr>
+                <td>Day/Period</td>
+                <td>I<br>9:30-10:20</td>
+                <td>II<br>10:20-11:10</td>
+                <td>III<br>11:10-12:00</td>
+                <td>12:00-12:40</td>
+                <td>IV<br>12:40-1:30</td>
+                <td>V<br>1:30-2:20</td>
+                <td>VI<br>2:20-3:10</td>
+                <td>VII<br>3:10-4:00</td>
+            </tr>
+        </thead>
+        <tbody class="centerrr">
+            <tr>
+            <td>Mon</td>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td rowspan="6" >L<br>U<br>N<br>C<br>H</td>
+            <td colspan="3">LAB</td>
+            <td>Phy</td>
+            </tr>
+
+            <tr>
+                <td>Tue</td>
+                <td colspan="3">LAB</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <td>Wed</td>
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LIBRARY</td>
+            </tr>
+            <tr>
+                <td>Thu</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+            </tr>
+            <tr>
+                <td>Fri</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td>Eng</td>
+                <td>Phy</td>
+            </tr>
+            <tr>
+                <td>Sat</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td colspan="3">SEMINAR</td>
+                <td>SPORTS</td>
+            </tr>
+    </tbody>
+       
+    </table>
+
+
+  
+
+
+    
+</body>
+</html>
+
+
+
+            
+
+
+
+<!-- <td style="padding:10px ;" rowspan="6">
+    <table >
+      <caption><strong>Row 2: Nested Table 1</strong></caption>
+      <tr>
+          <td>Row 1 Header</td>
+          <td>item XXX</td>
+      </tr>
+      <tr>
+          <td>Row 2 Header</td>
+          <td>item XXX</td>
+      </tr>
+      <tr>
+          <td>Row 3 Header</td>
+          <td>item XXX</td>
+      </tr>
+     </table> 
+  </td> -->
