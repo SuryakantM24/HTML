@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercises</title>
+    <style>
+        .txt{
+            text-align: center;
+        }
+        .head{
+            color: red;
+            background-color: rgb(251, 255, 208);
+        }
+        .buttonsize{
+            width: 30%;
+            height: 10%;
+           
+        }
+        .back{
+            background-color: rgb(29, 155, 234);
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <p><h2>Form Exercise</h2></p>
+    <h3>Form 1 Practice</h3>
+    <table border="1px" class="txt">
+        
+        <thead>
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+        </thead>
+        <tbody >
+            <tr>
+                <td>Student</td>
+                <td>
+                    <input type="text" style="width:95%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Father's Name</td>
+                <td>
+                    <input type="text" style="width:95%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Mother's Name</td>
+                <td>
+                    <input type="text" style="width:95%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                    <input type="date" name="dob" id="" style="width:95%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <label for="male" >Male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="female" >Female</label>
+                    <input type="radio" name="gender" id="female">
+
+                </td>
+            </tr>
+            <tr>
+                <td>Email ID</td>
+                <td>
+                    <input type="email" placeholder="abc@gmail.com" style="width:95%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile No.</td>
+                <td>
+                    <input type="text" style="width:95%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name="Address" id="" cols="15" rows="4" style="margin:10px;"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td>
+                    <input type="text" placeholder="State" style="width:95%;">
+                </td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>
+                    <input type="text" placeholder="City" style="width:95%;">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        <h3>Form 2 Practice </h3>
+    </p>
+
+    <table border="1px" >
+        <thead  class="head">
+            <tr>
+                <th colspan="2">
+                    <h2 class="head">Registration Form</h2>
+                </th>
+            </tr>
+        </thead>
+        <tbody class="back">
+            <tr>
+                <td>Enter Name</td>
+                <td> <input type="text" style="width:95%;"></td>
+            </tr>
+            <tr>
+                <td>Enter Password</td>
+                <td> <input type="password" style="width:95%;"></td>
+            </tr>
+            <tr>
+                <td>Enter Address</td>
+                <td >
+                    <textarea style="margin:5px" name="Address" id="" cols="20" rows="6"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Select Game</td>
+                <td>
+
+                   <input type="checkbox" id="Hockey">
+                   <label for="Hockey">Hockey</label>
+                   <br>
+                   <input type="checkbox" id="Football">
+                   <label for="Football">Football</label>
+                   <br>
+                   <input type="checkbox" id="bad">
+                   <label for="bad">Badminton</label>
+                   <br>
+                   <input type="checkbox" id="cri">
+                   <label for="cri">Cricket</label>
+                   <br>
+                   <input type="checkbox" id="Volleyball">
+                   <label for="Volleyball">Volleyball</label>
+                   
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <label for="male" >Male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="female" >Female</label>
+                    <input type="radio" name="gender" id="female">
+
+                </td>
+            </tr>
+            <tr>
+                <td>Select ur age</td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>Select Photo</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="center">
+                   <button  height="40px" width="30%">Click Me</button>
+                   <button width="30%">Reset</button>
+                   <button width="30%">Submit Form</button>
+                </td>
+               
+            </tr>
+
+        </tbody>
+    </table>
+
+    
+</body>
+</html>

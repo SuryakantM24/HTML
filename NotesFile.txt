@@ -411,3 +411,22 @@ form
 IMPORTANT:-to  make selection of one radio button deselect other , we need to give same name in name attribute in input tag
 
 checked attribute can be given to have one option checked by default
+
+
+
+//LEC 9 (FORMS EXERCISES)
+
+
+File: index5.html
+
+Practice Examples 
+
+
+1} https://www.itcomputerguruji.com/2022/03/html-form-assignment.html
+
+2}  EX 1:-https://www.ankitweblogic.com/html/formexercise.php
+
+
+3} https://www.geeksforgeeks.org/build-a-survey-form-using-html-and-css/
+
+
