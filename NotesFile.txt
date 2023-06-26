@@ -435,3 +435,6 @@ Practice Examples
 file:- Resume 2
 
 //LEC 11(Media in HTML)
+
+File :-index6.html
+
