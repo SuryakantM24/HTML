@@ -430,3 +430,8 @@ Practice Examples
 3} https://www.geeksforgeeks.org/build-a-survey-form-using-html-and-css/
 
 
+//LEC 10 (Resume Project)
+
+file:- Resume 2
+
+//LEC 11(Media in HTML)
