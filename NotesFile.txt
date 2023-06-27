@@ -449,5 +449,24 @@ video tag:- it also needs controls
 //LEC 12 {META DATA AND SEO}
 
 
+title tag:- used for giving title to webpage
 
+favicon:- small icons near title.
+
+these can be added using link tag.
+
+file:- index7.html
+
+
+we need to  use link tag to add favicons, css file
+
+SCRIPTTAG is used to link JAVASCRIPT File;
+
+
+SEO:- Search engine optimize
+
+meta tags has around 10% CONTRIBUTION  for rtanking our webpage.
+
+
+DONE WITH HTML!!!!!
 
