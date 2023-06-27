@@ -436,5 +436,18 @@ file:- Resume 2
 
 //LEC 11(Media in HTML)
 
+
 File :-index6.html
+
+img tag
+audio tag: there must be control attribute to make video avaibale of webpage. if not given the audio will not work and nothing will be shown in webpage
+
+video tag:- it also needs controls
+
+
+
+//LEC 12 {META DATA AND SEO}
+
+
+
 
